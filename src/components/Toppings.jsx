@@ -36,7 +36,7 @@ const Toppings = ({ addTopping, pizza }) => {
   }
   return (
     <> 
-    <motion.div className="toppings container pb-12"
+    <motion.div className="toppings container "
       variants={parenetElement}
       exit='exit'
       animate='visible'
